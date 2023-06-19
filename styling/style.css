@@ -1,0 +1,290 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+}
+body{
+  background-color: #E3E6E6;
+}
+
+.navbar {
+  display: flex;
+  /* Cross axis */
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+/* Nav logo styling starts here */
+.nav-logo {
+  height: 45px;
+  width: 100px;
+}
+.logo {
+  background-image: url(../images/amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+/* Nav logo styling Ends here */
+
+/* Nav Second Div Address styling starts here */
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+.h-first {
+  margin-left: 18px;
+  font-size: 0.8rem;
+}
+
+.h-second {
+  margin-left: 6px;
+  font-size: 1rem;
+  font-weight: 700px;
+}
+
+/* Nav Second Div Address styling starts here */
+
+/* Nav Second Div input styling starts here */
+.nav-search {
+  display: flex;
+  align-items: center;
+  align-content: space-evenly;
+  width: 600px;
+  height: 40px;
+}
+.nav-search:hover{
+  border: 2px solid  #febd69;
+  border-radius: 4px;
+  background-color: #febd69 ;
+}
+.search-select {
+  width: 60px;
+  height: 40px;
+  padding: 5px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  /* background-color: #F3F3F3; */
+}
+.space {
+  padding: 20px;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  font-size: 1.5rem;
+  background-color: #febd69;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* CSS styling for the language selection dropdown Starts Here*/
+.language-dropdown {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+.language-dropdown select {
+    color: white;
+    background-color: black;
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+/* CSS styling for the language selection dropdown Ends here*/
+
+
+/* CSS styling the Accounts Box starts Here */
+.accounts{
+    width: 130px;
+    height: 40px;
+    align-items:  center;
+}
+.account-h-first {
+    margin-left: 18px;
+    font-size: 0.88rem;
+}
+
+.account-h-second {
+    margin-left: 6px;
+    font-size: 1.02rem;
+    font-weight: 700px;
+}
+.account-h-second > a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS styling the Accounts Box Ends Here */
+
+/* Cart Page Design */
+.cart-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-icon{
+    font-size: 25px;
+}
+.cart-box > p{
+    font-size: 1.02rem;
+    font-weight: 900px;
+}
+
+/* Panel Design below the nav  */
+.panel{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  background-color: #232f3e;
+  color: white;
+}
+.all{
+  margin-left: 0px;
+  display: flex;
+}
+
+.all > p {
+  margin-left: 7px;
+}
+.panel-options {
+  width: 80%;
+}
+.panel-options > p{
+  font-size: 0.90rem;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
+/* Hero Section Designing starts here */
+.hero-section{
+  background-image:url(/images/hero_image.jpg) ;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  /* margin-bottom: 400px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.hero-msg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 95%;
+  position: absolute;
+  background-color: white;
+  color:black;
+}
+
+
+/* Products of hero section  */
+.hero-products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+  margin-top: 700px;
+  width: 100%;
+  height: 300px;
+  /* background-color: #32b1b1; */
+  padding-bottom: 100px;
+}
+
+.hero-products-box{
+  margin: 20px 10px 20px 10px;
+  border-radius: 20px;
+  width: 20%;
+  height: 290px;
+  background-color: #ffffff;
+}
+.hero-products-box > h2{
+  margin: 10px;
+}
+.hero-products-box > p{
+  margin: 10px;
+}
+.hero-products-box  > p > a{
+  text-decoration: none;
+}
+.hero-products-box > img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 230px;
+  height: 200px;
+}
+
+
+.hero-products-1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content:space-evenly ;
+  /* margin-top: 600px; */
+  width: 90%;
+  height: 300px;
+  /* background-color: #E3E6E6; */
+}
+
+
+
+.foot-panel-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  background-color: #37475A;
+  height: 40px;
+  color: white;
+}
+
+.foot-panel-2{
+  background-color: #232F3E;
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+.footer-section{
+  margin: 60px 0px 60px 0px;
+  /* background-color: #febd69;
+  border: 2px solid black; */
+}
+.footer-section > ul >  li {
+  font-size: 0.90rem;
+  list-style-type: none;
+  margin: 10px 15px 10px 15px;
+  padding-bottom: 7px;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
