@@ -179,7 +179,7 @@ body{
 
 /* Hero Section Designing starts here */
 .hero-section{
-  background-image:url(./images/hero_image.jpg) ;
+  background-image:url(../images/hero_image.jpg) ;
   background-size: cover;
   height: 600px;
   width: 100%;
@@ -194,8 +194,9 @@ body{
   align-items: center;
   justify-content: center;
   height: 40px;
-  width: 95%;
+  width: 80%;
   position: absolute;
+  border-radius:6px;
   background-color: white;
   color:black;
 }
@@ -210,8 +211,30 @@ body{
   width: 100%;
   height: 300px;
   /* background-color: #32b1b1; */
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
+
+.hero-products-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+  margin-top: 240px;
+  width: 100%;
+  height: 300px;
+  /* background-color: #32b1b1; */
+  padding-bottom: 1px;
+}
+.hero-products-3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+  margin-top: 40px;
+  width: 100%;
+  height: 70px;
+  /* background-color: #32b1b1; */
+  padding-bottom: 1px;
+}
+
 
 .hero-products-box{
   margin: 20px 10px 20px 10px;
@@ -287,4 +310,12 @@ body{
 .border:hover {
   border: 1px solid white;
 }
-
+.foot-panel-3{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	background-color:#37475A;
+	padding:8px;
+	
+}
