@@ -179,7 +179,7 @@ body{
 
 /* Hero Section Designing starts here */
 .hero-section{
-  background-image:url(./images/hero_image.jpg) ;
+  background-image:url(../images/hero_image.jpg) ;
   background-size: cover;
   height: 600px;
   width: 100%;
